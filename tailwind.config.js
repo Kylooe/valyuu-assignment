@@ -9,6 +9,7 @@ export default {
         'white': '#ffffff',
         'ultra-marine': '#3232fb',
         'jet-black': '#1a1a1a',
+        background: '#f4f4f4',
       },
       fontSize: {
         p1: ['20px', '30px'],
@@ -25,10 +26,9 @@ export default {
       rotate: {
         '7': '7deg',
       },
-      // spacing: {
-      //   module: '80px',
-      //   card: '20px',
-      // },
+      spacing: {
+        module: '72px',
+      },
     },
   },
   plugins: [],
