@@ -16,7 +16,7 @@ const Card: React.FC<Props> = (props) => {
 
   return (
     <button
-      className={`flex items-center bg-ultra-marine rounded-full py-2 px-3 desktop:py-4 desktop:px-5 ${className}`}
+      className={`flex items-center bg-ultra-marine hover:bg-[#326AFB] rounded-full py-2 px-3 desktop:py-4 desktop:px-5 ${className}`}
       onClick={onClick}
     >
       <span className="text-p2 text-white">{text}</span>

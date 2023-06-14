@@ -10,12 +10,12 @@ const EcoContentSection: React.FC = () => {
   }, [])
 
   return (
-    <div className="flex items-center justify-center flex-col gap-6 desktop:flex-row desktop:gap-4 py-module px-5 desktop:py-32">
+    <div className="flex items-center justify-center flex-col gap-6 desktop:flex-row desktop:gap-4 py-module px-5 desktop:py-36">
       <div className="text-center desktop:text-left desktop:w-[330px]">
-        <p className="text-p2">We believe</p>
+        <p className="text-p2 mb-2">We believe</p>
         <h3>Save planet is something everyone can do</h3>
       </div>
-      <div className="relative flex flex-wrap gap-5">
+      <div className="relative flex justify-center flex-wrap gap-5">
         <Card
           cover="/ivana-cajina-DhUjuTaLFMg.png"
           bgColor="#EDE9FF"
