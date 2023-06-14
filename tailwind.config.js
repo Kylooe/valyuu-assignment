@@ -12,7 +12,7 @@ export default {
         background: '#f4f4f4',
       },
       fontSize: {
-        p1: ['20px', '30px'],
+        p1: ['18px', '27px'],
         p2: ['16px', '24px'],
         p3: ['14px', '21px'],
       },
