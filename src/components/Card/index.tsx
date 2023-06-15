@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { motion, animate, useAnimationControls  } from 'framer-motion'
 
 import Button from '../Button'
 import './index.css'
@@ -12,8 +11,6 @@ type Props = {
   bgColor?: string
   actions?: Record<string, () => void>
 }
-
-const transitionClass = 'ease-linear duration-200'
 
 const containerClass = {
   base: 'rounded-small border border-jet-black flex items-center',
