@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+  .activeContainer {
+    @apply desktop:-rotate-7;
+  }
+  .inactiveContainer {
+    @apply desktop:rotate-7;
+  }
+  .activeContent {
+    @apply desktop:ml-9 desktop:w-[360px];
+  }
+  .inactiveContent {
+    @apply desktop:ml-0 desktop:w-0;
+  }
+  .activeTitle {
+    @apply desktop:static desktop:transform-none;
+  }
+  .inactiveTitle {
+    @apply desktop:text-white desktop:text-center desktop:absolute desktop:-translate-y-1/2 inset-y-1/2 left-0;
+  }
+}
